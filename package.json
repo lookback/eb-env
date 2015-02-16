@@ -1,0 +1,24 @@
+{
+  "name": "eb-env",
+  "description": "set environment parameters for your elastic beanstalk environment using your favorite editor",
+  "version": "0.0.1",
+  "author": "Lookback <hi@lookback.io>",
+  "maintainers": [
+    "datacarl <carl@lookback.io>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lookback/eb-env.git"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "aws-sdk": "~2.0"
+  },
+  "bin": {
+    "eb-env" : "eb-env.js"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  }
+}
+
